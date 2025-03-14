@@ -59,6 +59,7 @@ O ambiente consiste em uma VPC com múltiplas subnets e zonas de disponibilidade
    - **WAF** para proteção contra ataques na camada de aplicação.
 
 ![Image](https://github.com/user-attachments/assets/2e61b504-4d4c-46f7-8d76-3d532e02b6ed)
+
 Diagrama da infraestrutura migrada.
 ### Segurança
 - **Separação de rede com VPC, subnets privadas e públicas.**
@@ -73,10 +74,15 @@ Diagrama da infraestrutura migrada.
 
 ### Custo da Infraestrutura na AWS
 Cálculo dos custos estimados dos serviços na AWS utilizando o **Pricing Calculator.**
+
 ![Image](https://github.com/user-attachments/assets/0f243a24-7b34-40d9-9f25-e0eb620aad51)
-Estimativa de custo da migração. [Estimativa Migração](/Estimativa Migração.pdf)
+
+Estimativa de custo da migração. [Estimativa Migração](https://github.com/ggbtunga/Compass-projeto-final/blob/main/estimativas/Estimativa%20Migra%C3%A7%C3%A3o.pdf)
+
+
 ![Image](https://github.com/user-attachments/assets/88f3577a-5638-4f9d-b2ea-c5d7b265d020)
-Estimativa da infraestrutura migrada. [Estimativa Migrada](/Estimativa Migrada.pdf)
+
+Estimativa da infraestrutura migrada. [Estimativa Migrada](https://github.com/ggbtunga/Compass-projeto-final/blob/main/estimativas/Estimativa%20Migrada.pdf)
 
 ---
 
@@ -126,8 +132,10 @@ A nova infraestrutura será baseada em Kubernetes no EKS e conterá:
 
 ### Custo da Infraestrutura na AWS
 Cálculo dos custos estimados dos serviços na AWS utilizando o **Pricing Calculator.**
+
 ![Image](https://github.com/user-attachments/assets/c438523f-9401-4c91-80cd-bbeab198f4a1)
-Estimativa de custo da infraestrutura. [Estimativa Migrada](/Estimativa Modernização.pdf)
+
+Estimativa de custo da infraestrutura. [Estimativa Modernização](https://github.com/ggbtunga/Compass-projeto-final/blob/main/estimativas/Estimativa%20Moderniza%C3%A7%C3%A3o.pdf)
 
 ---
 

@@ -84,6 +84,9 @@ Estimativa de custo da migração. [Estimativa Migração](https://github.com/gg
 
 Estimativa da infraestrutura migrada. [Estimativa Migrada](https://github.com/ggbtunga/Compass-projeto-final/blob/main/estimativas/Estimativa%20Migrada.pdf)
 
+### Observação
+A estimativa de custo para a migração é apenas uma mera estimativa, visto que o processo de migração poderá durar menos de uma semana, sendo assim, o valor não chegará ao valor total estimado.
+
 ---
 
 ## Etapa 2. Modernização para AWS (EKS e Serviços Gerenciados)

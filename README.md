@@ -1,5 +1,8 @@
 # Projeto Final  #PB - NOV 2024 | DevSecOps
 
+### 👥 Integrantes do Grupo:
+- Hick Tan
+- Guilherme de Brito Ferreira
 
 ## Contexto
 A **Fast Engineering S/A** , possui um e-Commerce que está crescendo e a solução atual não está atendendo mais a alta demanda de acessos e compras.

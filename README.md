@@ -11,7 +11,7 @@ Servidores atuais:
 
 ### Diagrama da situalção atual
 
-![Image](https://github.com/user-attachments/assets/8c9c073d-3c98-476d-8253-459a36aa8c6e)
+![Image](https://github.com/user-attachments/assets/2d77b13a-4a39-4952-9e47-3abc2bf33130)
 
 A proposta é realizar a migração de seu ambiente para a AWS, separado em duas etapas:
 
@@ -38,7 +38,7 @@ A proposta é realizar a migração de seu ambiente para a AWS, separado em duas
 - **AWS Cost Calculator** - Para estimativa de custos.
 
 ### Diagrama da Infraestrutura na AWS (Lift-and-Shift)
-![Image](https://github.com/user-attachments/assets/2b9efcc9-7903-4b6a-b837-7ad84ec157af)
+![Image](https://github.com/user-attachments/assets/c110252e-9e7c-4414-8822-a6308c0e9f7c)
 #### Descrição do Diagrama
 O ambiente consiste em uma VPC com múltiplas subnets e zonas de disponibilidade (AZs):
 1. **Fase de Preparação (On-Premises para AWS):**
@@ -58,7 +58,7 @@ O ambiente consiste em uma VPC com múltiplas subnets e zonas de disponibilidade
    - **Route 53** e **CloudFront** para distribuição e roteamento de tráfego global.
    - **WAF** para proteção contra ataques na camada de aplicação.
 
-![Image](https://github.com/user-attachments/assets/77f70c1c-40d1-443b-88df-e410c5bb00bc)
+![Image](https://github.com/user-attachments/assets/2e61b504-4d4c-46f7-8d76-3d532e02b6ed)
 Diagrama da infraestrutura migrada.
 ### Segurança
 - **Separação de rede com VPC, subnets privadas e públicas.**
@@ -73,9 +73,9 @@ Diagrama da infraestrutura migrada.
 
 ### Custo da Infraestrutura na AWS
 Cálculo dos custos estimados dos serviços na AWS utilizando o **Pricing Calculator.**
-![Image](https://github.com/user-attachments/assets/0535439f-6554-4908-804b-b0b6bc3a3057)
+![Image](https://github.com/user-attachments/assets/0f243a24-7b34-40d9-9f25-e0eb620aad51)
 Estimativa de custo da migração. [Estimativa Migração](/Estimativa Migração.pdf)
-![Image](https://github.com/user-attachments/assets/83307d63-75f3-4150-9d6c-ff35c7b33361)
+![Image](https://github.com/user-attachments/assets/88f3577a-5638-4f9d-b2ea-c5d7b265d020)
 Estimativa da infraestrutura migrada. [Estimativa Migrada](/Estimativa Migrada.pdf)
 
 ---
@@ -102,7 +102,7 @@ Estimativa da infraestrutura migrada. [Estimativa Migrada](/Estimativa Migrada.p
 - **AWS EFS** - O EFS é usado para armazenamento persistente de dados compartilhados entre os pods do EKS.Ele é integrado ao Kubernetes através de Persistent Volumes (PV) e Persistent Volume Claims (PVC).
 
 ### Diagrama da Infraestrutura na AWS (Modernização com EKS)
-![Image](https://github.com/user-attachments/assets/67331a0c-effc-4276-97a6-6994258d261c)
+![Image](https://github.com/user-attachments/assets/ac417422-450a-47ba-b1e6-2579903bc8ea)
 #### Descrição do Diagrama
 A nova infraestrutura será baseada em Kubernetes no EKS e conterá:
 - **CI/CD:** O fluxo de desenvolvimento ocorre no GitHub, seguido pelo Terraform para provisionamento e CodePipeline para automação da entrega contínua. CodeBuild compila as imagens e armazena no ECR.
@@ -126,7 +126,7 @@ A nova infraestrutura será baseada em Kubernetes no EKS e conterá:
 
 ### Custo da Infraestrutura na AWS
 Cálculo dos custos estimados dos serviços na AWS utilizando o **Pricing Calculator.**
-![Image](https://github.com/user-attachments/assets/a7df2a44-8fd9-4e42-8b09-0b0f7b1e29d7)
+![Image](https://github.com/user-attachments/assets/c438523f-9401-4c91-80cd-bbeab198f4a1)
 Estimativa de custo da infraestrutura. [Estimativa Migrada](/Estimativa Modernização.pdf)
 
 ---

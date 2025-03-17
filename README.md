@@ -28,7 +28,7 @@ A proposta é realizar a migração de seu ambiente para a AWS, separado em duas
 3. Configuração do AWS Database Migration Service (DMS) para migração do banco de dados.
 4. Criação das VPCs, subnets e grupos de segurança necessários.
 5. Execução da replicação e verificação da integridade dos dados migrados.
-6. Testes e validação dos servidores e banco de dados migrados e EFS objetos estáticos.
+6. Testes e validação dos servidores, banco de dados migrados e EFS objetos estáticos.
 7. Descomissionamento do ambiente antigo após a validação.
 
 ### Ferramentas Utilizadas
@@ -55,7 +55,7 @@ O ambiente consiste em uma VPC com múltiplas subnets e zonas de disponibilidade
 
 3. **Infraestrutura AWS Pós-Migração:**
    - Instâncias **EC2** para frontend e backend, cada uma conectada a volumes **EBS** e **ASG**.
-   - Um banco de dados **Amazon RDS** configurado em **Multi-AZ** para garantir disponibilidade.
+   - Um banco de dados **Amazon RDS** configurado em **Multi-AZ** para garantir alta disponibilidade.
    - Um **Application Load Balancer (ALB)** para balanceamento de carga entre as instâncias EC2.
    - **NAT Gateway** para permitir comunicação segura entre servidores privados e serviços externos.
    - **Route 53** e **CloudFront** para distribuição e roteamento de tráfego global.
@@ -88,7 +88,7 @@ Estimativa de custo da migração. [Estimativa Migração](https://github.com/gg
 Estimativa da infraestrutura migrada. [Estimativa Migrada](https://github.com/ggbtunga/Compass-projeto-final/blob/main/estimativas/Estimativa%20Migrada.pdf)
 
 ### Observação
-A estimativa de custo para a migração é apenas uma mera estimativa, visto que o processo de migração poderá durar menos de uma semana, sendo assim, o valor não chegará ao valor total estimado.
+A estimativa de custo para a migração é apenas uma mera aproximação, visto que o processo de migração poderá durar menos de uma semana, sendo assim, o valor não chegará ao valor total estimado.
 
 ---
 

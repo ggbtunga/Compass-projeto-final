@@ -122,6 +122,7 @@ A nova infraestrutura será baseada em Kubernetes no EKS e conterá:
   - **Produção:** Roda em instâncias EC2 com node groups e autoescalonamento (HPA e ASG).
   - **Testes:** Roda no AWS Fargate para menor custo e escalabilidade sob demanda.
   - **Ingress Controller** gerencia a entrada de tráfego e encaminha para os serviços apropriados.
+- Um **Network Load Balancer (NLB)** para balanceamento de carga entre as aplicações.
 - **Banco de Dados:** Amazon RDS em Multi-AZ para alta disponibilidade.
 - **Networking:** NAT Gateway para permitir acesso seguro a serviços externos.
 - **Segurança:** WAF, GuardDuty, Secrets Manager e políticas de acesso rigorosas.
